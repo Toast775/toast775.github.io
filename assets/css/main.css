@@ -4159,3 +4159,42 @@ input, select, textarea {
 		}
 
 	}
+	#header {
+		max-width: 1100px;
+		margin: 0 auto;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	#header .content {
+		max-width: 650px;
+	}
+
+	#header .image.profile {
+		flex-shrink: 0;
+	}
+
+	#header .image.profile img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 50%;
+		display: block;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#header {
+			flex-direction: column;
+			text-align: center;
+		}
+
+			#header .content {
+				max-width: 100%;
+			}
+
+			#header .actions {
+				justify-content: center;
+			}
+
+	}
