@@ -2388,6 +2388,18 @@ input, select, textarea {
 		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #c9dde3;
 	}
 
+	.image.profile {
+		box-shadow: none;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.image.profile img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 50%;
+		display:block;
+	}
 		.image.phone {
 			box-shadow: none;
 		}
